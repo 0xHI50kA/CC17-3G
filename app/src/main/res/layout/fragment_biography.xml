@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/biography_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIOGRAPHY"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:paddingBottom="16dp" />
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/picture"
+        android:contentDescription="Profile Picture" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Raven Jay S.Binay-an"
+        android:textSize="20sp"
+        android:paddingTop="16dp"
+        android:paddingBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age:25"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="293dp"
+        android:layout_height="313dp"
+        android:paddingTop="8dp"
+        android:text="      Hello I Am Raven Jay A 3nd year Student Of University of the cordilleras. As a Student, I have invested significant time and effort in familiarizing myself with coding in both Java and Python.This experience has provided me with a strong foundation in programming principles, problem-solving, and algorithmic thinking. I believe that these skills are not only valuable but also transferable to the field of game development.where I am eager to apply my coding expertise to create immersive and interactive gaming experiences."
+        android:textSize="16sp" />
+
+</LinearLayout>

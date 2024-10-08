@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/biography_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INTEREST"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:paddingBottom="16dp" />
+
+
+    <TextView
+        android:id="@+id/interest_description1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="      I enjoy exploring different fields of technology and design. Here are some of my key areas of interest:"
+        android:textSize="20sp"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/interest_description2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="Programming Languages-Proficient in Java,C++, and Python for building software and solving technical problems."
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/interest_description3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Web Design-Skilled in creating responsive websites using HTML, CSS, and JavaScript"
+        android:textSize="16sp"
+        android:paddingBottom="16dp"/>
+    <TextView
+        android:id="@+id/interest_description4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multimedia Software: Familiar with Adobe Photoshop and Blender for digital art and 3D modeling."
+        android:textSize="16sp"
+        android:paddingBottom="16dp"/>
+</LinearLayout>
